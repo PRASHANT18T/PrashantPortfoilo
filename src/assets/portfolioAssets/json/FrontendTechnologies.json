@@ -1,0 +1,57 @@
+    [
+  {
+    "id": 1,
+    "langname": "HTML",
+    "certification": "IT Vedant - Frontend Development",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    "description": "HTML (HyperText Markup Language) is the backbone of web content. It structures every website element from headers to footers and forms the skeleton of web applications.",
+    "experience": "Used extensively in all my frontend projects. Designed responsive layouts, created semantic structures, and embedded multimedia with ease.",
+    "blog": "HTML is where everything begins. It feels like painting the canvas before filling it with colors using CSS and JS.",
+    "fundamentalrange": 90,
+    "workExperiencerange": 75
+  },
+  {
+    "id": 2,
+    "langname": "CSS",
+    "certification": "IT Vedant - UI Design Module",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    "description": "CSS (Cascading Style Sheets) is responsible for making the web beautiful. It handles styling, layout, and responsiveness.",
+    "experience": "Crafted elegant designs using Flexbox and Grid. Implemented media queries for responsiveness across devices.",
+    "blog": "CSS is my styling wand! It can be tricky sometimes (yes, the infamous specificity wars 😅), but it brings life to dull HTML.",
+    "fundamentalrange": 85,
+    "workExperiencerange": 70
+  },
+  {
+    "id": 3,
+    "langname": "Tailwind CSS",
+    "certification": "Tailwind Official Docs + Projects",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+    "description": "Tailwind CSS is a utility-first CSS framework that speeds up styling with pre-defined classes.",
+    "experience": "Used Tailwind extensively in portfolio projects. It allows rapid development and keeps styling consistent.",
+    "blog": "Tailwind is addictive! Once I started, I never looked back at traditional CSS or Bootstrap.",
+    "fundamentalrange": 95,
+    "workExperiencerange": 85
+  },
+  {
+    "id": 4,
+    "langname": "JavaScript",
+    "certification": "IT Vedant - JavaScript & DOM",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    "description": "JavaScript is the language of the web. It enables interactivity, logic, and client-side behavior on web pages.",
+    "experience": "Built multiple dynamic components using Vanilla JS and DOM manipulation. Worked with APIs, JSON, and form validation.",
+    "blog": "JS is like magic with logic. I love debugging and solving weird bugs that teach more than books.",
+    "fundamentalrange": 90,
+    "workExperiencerange": 80
+  },
+  {
+    "id": 5,
+    "langname": "React",
+    "certification": "IT Vedant - React Training",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "description": "React is a JavaScript library for building reusable UI components. It’s component-based and uses a virtual DOM.",
+    "experience": "Built portfolio, project showcase, and reusable components. Used hooks, props, and routing effectively.",
+    "blog": "React feels like LEGO for the web—component by component, I built beautiful apps. 🚀",
+    "fundamentalrange": 85,
+    "workExperiencerange": 75
+  }
+]

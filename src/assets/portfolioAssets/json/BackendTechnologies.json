@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "langname": "Java",
+    "certification": "IT Vedant - Core Java & OOPs",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    "description": "Java is a versatile, object-oriented language used in enterprise-level backend systems.",
+    "experience": "Implemented OOPs concepts, wrote REST APIs with Spring Boot, and integrated with databases.",
+    "blog": "Java is powerful and strict, but that discipline makes you a better programmer. Perfect for scalable systems.",
+    "fundamentalrange": 90,
+    "workExperiencerange": 80
+  },
+  {
+    "id": 2,
+    "langname": "Spring Boot",
+    "certification": "IT Vedant - Spring Boot Course",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+    "description": "Spring Boot simplifies backend development by providing production-ready setups for REST APIs and enterprise apps.",
+    "experience": "Created secure RESTful APIs, implemented CRUD operations, and connected with MySQL databases.",
+    "blog": "Spring Boot makes backend development elegant. It handles complexity with grace and convention.",
+    "fundamentalrange": 85,
+    "workExperiencerange": 70
+  }
+]

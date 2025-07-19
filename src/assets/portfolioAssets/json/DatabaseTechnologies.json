@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "langname": "MySQL",
+    "certification": "IT Vedant - SQL & DBMS",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+    "description": "MySQL is a relational database management system widely used for storing structured data.",
+    "experience": "Designed schemas, wrote complex queries, and integrated with Spring Boot projects.",
+    "blog": "MySQL is a solid foundation. Writing clean, optimized queries feels like solving puzzles.",
+    "fundamentalrange": 80,
+    "workExperiencerange": 60
+  },
+  {
+    "id": 2,
+    "langname": "MongoDB",
+    "certification": "MongoDB University - Basics",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    "description": "MongoDB is a NoSQL database that stores data in flexible, JSON-like documents.",
+    "experience": "Used MongoDB in MERN stack apps. Built schemas with Mongoose, implemented CRUD, and deployed backend.",
+    "blog": "MongoDB is chill and flexible. It fits perfectly with modern web apps and rapid prototyping.",
+    "fundamentalrange": 75,
+    "workExperiencerange": 50
+  }
+]
