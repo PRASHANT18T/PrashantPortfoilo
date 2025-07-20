@@ -26,13 +26,13 @@ const BlogDetails = () => {
         alt={blog.title}
         className="w-full h-64 object-cover rounded mb-6"
       />
-      <p className="text-gray-600 mb-2 font-medium">✍️ By {blog.author}</p>
+      <p className="text-white mb-2 font-medium">✍️ By {blog.author}</p>
       <div className="text-sm text-cyan-600 mb-4">
         {blog.tags.map((tag, idx) => (
           <span key={idx} className="mr-2">#{tag}</span>
         ))}
       </div>
-      <p className="text-gray-700 leading-7 whitespace-pre-line">
+      <p className="text-white text-2xl leading-7 whitespace-pre-line">
         {blog.content}
       </p>
     </div>

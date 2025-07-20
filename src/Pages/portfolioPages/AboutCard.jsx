@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import FullStackCertificate from "../../assets/portfolioAssets/img/FullStackcertificate.jpg";
+ // Adjust the path as needed
 import {
   FaHeart,
   FaCode,
@@ -46,6 +48,25 @@ const AboutCard = () => {
             and live like a calm warrior monk with a laptop. 💻🌿
           </p>
         </motion.div>
+        {/* Certificate Section */}
+<motion.div
+  className="mb-6 mt-6"
+  initial={{ opacity: 0, scale: 0.9 }}
+  whileInView={{ opacity: 1, scale: 1 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.6, delay: 0.2 }}
+>
+  <h2 className="text-lg font-semibold mb-2 flex items-center gap-2 text-gray-800 dark:text-white">
+    🎓 My Full Stack Certificate
+  </h2>
+  <div className="w-full overflow-hidden rounded-xl shadow-md border border-gray-300 dark:border-gray-700">
+    <img
+      src={FullStackCertificate}
+      alt="Full Stack Certificate - IT Vedant"
+      className="w-full object-cover"
+    />
+  </div>
+</motion.div>
 
         {/* Info Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm text-gray-600 dark:text-gray-300">
@@ -58,7 +79,7 @@ const AboutCard = () => {
               <li>10th - 67.20% (2016)</li>
               <li>ITI Electrician (2016–2018)</li>
               <li>12th - 70.32% (2021)</li>
-              <li>Full Stack Dev - Vedant Institute (2025)</li>
+              <li>Full Stack Dev - IT Vedant Institute (2025)</li>
             </ul>
           </div>
 

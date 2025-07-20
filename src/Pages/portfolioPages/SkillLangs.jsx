@@ -4,6 +4,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import allSkills from "../../assets/portfolioAssets/json/allSkills.json";
 
+
 const SkillLangs = () => {
   const { category, id } = useParams();
   const selectedSkill = allSkills.find(
