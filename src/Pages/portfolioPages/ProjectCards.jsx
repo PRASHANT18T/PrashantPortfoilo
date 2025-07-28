@@ -13,15 +13,16 @@ const projects = [
     liveLink: '/project1',
     repoLink: 'https://github.com/PRASHANT18T/LaceUp'
   },
-  {
-    id: 2,
-    title: 'Fitness Tracker',
-    description: 'Track workouts, calories, and analytics.',
-    img: 'https://th.bing.com/th?q=Fitness+App+UI',
-    tech: 'React, Redux, Tailwind, MongoDB',
-    liveLink: '/project2',
-    repoLink: '#'
-  },
+ {
+  id: 2,
+  title: 'Wonder Way – Travel & E-commerce',
+  description: 'Plan trips, book hotels, and shop premium travel gear—all in one sleek responsive website.',
+  img: 'https://res.cloudinary.com/dw4b2xirg/image/upload/v1695647892/portfolio/wonderway-cover.png', // Replace this with your hosted project screenshot
+  tech: 'HTML, Tailwind CSS, JavaScript',
+  liveLink: '/project2', // assuming Project2.js is routed correctly
+  repoLink: '#' // update with your GitHub link when ready
+}
+,
   {
     id: 3,
     title: 'E-Commerce Site',
