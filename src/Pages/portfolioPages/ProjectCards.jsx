@@ -1,16 +1,17 @@
 import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, useInView } from 'framer-motion';
+import img1 from "/src/assets/portfolioAssets/img/home1.png";
 
 const projects = [
   {
     id: 1,
     title: 'LaceUp – Shoe E-commerce Website',
     description: 'A full-stack e-commerce website selling branded sneakers and shoes. Users can browse, filter, and purchase shoes securely with integrated Stripe payments.',
-    img: 'https://images.unsplash.com/photo-1606813909355-c81f3d8b9be3',
+    img: img1,
     tech: 'React, Tailwind CSS, Spring Boot, Stripe API, MySQL',
     liveLink: '/project1',
-    repoLink: '#'
+    repoLink: 'https://github.com/PRASHANT18T/LaceUp'
   },
   {
     id: 2,

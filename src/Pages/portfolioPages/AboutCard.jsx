@@ -59,7 +59,7 @@ const AboutCard = () => {
   <h2 className="text-lg font-semibold mb-2 flex items-center gap-2 text-gray-800 dark:text-white">
     🎓 My Full Stack Certificate
   </h2>
-  <div className="w-full overflow-hidden rounded-xl shadow-md border border-gray-300 dark:border-gray-700">
+  <div className="w-full  overflow-hidden rounded-xl shadow-md border border-gray-300 dark:border-gray-700">
     <img
       src={FullStackCertificate}
       alt="Full Stack Certificate - IT Vedant"

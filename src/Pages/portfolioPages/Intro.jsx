@@ -1,9 +1,11 @@
 import React from 'react';
-import DotGrid from './DotGrid';
+// import DotGrid from './DotGrid';
 import SplitText from './SplitText';
 import RotatingText from './RotatingText';
 // import SplashCursor from './SplashCursor';
 // import LetterGlitch from './LetterGlitch';
+// import LightRays from './LightRays';
+import Galaxy from './Galaxy';
 
 const Intro = () => {
   const handleAnimationComplete = () => {
@@ -12,18 +14,15 @@ const Intro = () => {
 
   return (
     <div className="relative w-full h-screen overflow-hidden bg-black">
-      {/* Dot Grid Background */}
-      <DotGrid
-        dotSize={8}
-        gap={10}
-        baseColor="#1F2937"
-        activeColor="#00b4d8"
-        proximity={120}
-        shockRadius={220}
-        shockStrength={5}
-        resistance={1000}
-        returnDuration={1.5}
-      />
+      <Galaxy 
+    mouseRepulsion={true}
+    mouseInteraction={true}
+    density={1.5}
+    glowIntensity={0.5}
+    saturation={0.8}
+    hueShift={240}
+  />
+
 
       {/* <LetterGlitch
   glitchSpeed={50}

@@ -1,12 +1,67 @@
-# React + Vite
+# 🚀 Prashant Thube’s Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi! I'm **Prashant Thube**, a full-stack developer with a frontend obsession. This is my personal portfolio website showcasing my work, skills, and resume — built with passion and a pinch of frontend magic ✨.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
+👉 [Click here to visit my portfolio](https://your-live-site-url.netlify.app)  
+📸 Screenshots:  
+![Home Page](./assets/screenshots/home.png)  
+![Projects](./assets/screenshots/projects.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, Tailwind CSS, Framer Motion, GSAP
+- **Animation**: React SplitText, AnimatePresence, Lottie
+- **Hosting**: Netlify / Vercel
+- **Version Control**: Git & GitHub
+
+---
+
+## 📦 Features
+
+- 💻 Fully Responsive Design
+- ⚡ Smooth Scroll + Page Transitions
+- 🎨 Creative Animations
+- 📱 Mobile Friendly UI
+- 💼 Projects Showcase
+- 📞 Contact Form   
+
+---
+
+## 🚧 Development Process
+
+### 1. **Planning**
+- Wireframe created using Figma.
+- Focused on minimal UI with animated impact.
+
+### 2. **Development**
+- Used React functional components with Tailwind.
+- Added scroll animations using Framer Motion and GSAP.
+- Made reusable card and section components.
+
+### 3. **Challenges Faced**
+
+| Challenge | Solution |
+|----------|----------|
+| Image import error (`img: '{img1}'`) | Removed quotes to use `img: img1` properly |
+| SplitText not animating | Fixed by setting `splitType="words"` and using correct delay |
+| Responsive layout breaking | Used `flex-wrap`, `min-h-screen`, and Tailwind’s responsive breakpoints |
+
+---
+
+## 🚀 Deployment
+
+- **Netlify**  
+  Simple drag-and-drop or CLI-based deployment  
+  ```bash
+  npm run build
+  netlify deploy
