@@ -3,7 +3,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import MainLayout from "./layouts/MainLayout";
-import Home from "./pages/portfolioPages/Home";
+import Home from "./pages/portfolioPages/Home.jsx";
 import About from "./pages/portfolioPages/AboutCard";
 import ProjectCards from "./pages/portfolioPages/ProjectCards";
 import Skills from "./pages/portfolioPages/Skills";
@@ -20,7 +20,7 @@ import BlogsCart from "./Pages/portfolioPages/BlogsCart";
 import NotFound from "./pages/portfolioPages/NotFound";
 import BlogDetails from "./pages/portfolioPages/Blogs";
 
-function App() {
+function App() { 
   return (
     <Routes>
       {/* All these routes render inside MainLayout */}
