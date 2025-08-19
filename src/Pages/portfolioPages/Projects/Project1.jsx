@@ -9,7 +9,7 @@ import img6 from "/src/assets/portfolioAssets/img/card2.png";
 import img7 from "/src/assets/portfolioAssets/img/login.png";
 import img8 from "/src/assets/portfolioAssets/img/sign in.png";
 import img9 from "/src/assets/portfolioAssets/img/cart.png";
-import img10 from "/src/assets/portfolioAssets/img/Payment.png";
+import img10 from "/src/assets/portfolioAssets/img/payment.png";
 import img11 from "/src/assets/portfolioAssets/img/profile.png";
 import img12 from "/src/assets/portfolioAssets/img/orders.png";
 import img13 from "/src/assets/portfolioAssets/img/footer.png";
