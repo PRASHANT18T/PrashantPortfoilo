@@ -1,7 +1,7 @@
 // src/pages/portfolioPages/BlogDetails.jsx
 import React from "react";
 import { useParams } from "react-router-dom";
-import blogData from "../../assets/portfolioAssets/json/BlogData.json";
+import blogData from "../../assets/portfolioAssets/json/Blogdata.json";
 
 const BlogDetails = () => {
   const { id, title } = useParams();
