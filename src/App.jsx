@@ -6,8 +6,9 @@ import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/portfolioPages/Home";
 import About from "./pages/portfolioPages/AboutCard";
 import ProjectCards from "./pages/portfolioPages/ProjectCards";
+import Skills from "./pages/portfolioPages/Skills";
 import ContactForm from "./pages/portfolioPages/ContactForm";
-
+import Resume from "./Pages/portfolioPages/Resume";
 import Project1 from "./pages/portfolioPages/projects/Project1";
 import Project2 from "./pages/portfolioPages/projects/Project2";
 import Project3 from "./pages/portfolioPages/projects/Project3";
@@ -27,8 +28,10 @@ function App() {
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="ProjectCards" element={<ProjectCards />} />
+        <Route path="Skills" element={<Skills />} />
         <Route path="ContactForm" element={<ContactForm />} />
         <Route path="BlogsCart" element={<BlogsCart />} />
+        <Route path="Resume" element={<Resume />} />
         <Route path="project1" element={<Project1 />} />
         <Route path="project2" element={<Project2 />} />
         <Route path="project3" element={<Project3 />} />

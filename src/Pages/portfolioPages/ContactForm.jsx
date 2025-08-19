@@ -12,12 +12,13 @@ const ContactForm = () => {
     setIsSending(true);
     setStatusMessage("");
 
-    emailjs
+    
+      emailjs
       .sendForm(
-        "", // service ID
-        "",// template ID
+        "service_526rktp",
+        "template_g8tiwdn",
         form.current,
-        { publicKey: "" }// public key
+        { publicKey: "vtR4yCx2k5k_EXOH2" }
       )
       .then(
         () => {

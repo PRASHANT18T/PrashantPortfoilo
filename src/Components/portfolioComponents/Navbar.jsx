@@ -109,6 +109,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -157,12 +158,15 @@ const Navbar = () => {
           <NavLink to="/" className={({ isActive }) => `${linkClass} ${underline} ${isActive ? activeClass : ""}`}>Home</NavLink>
           <NavLink to="/About" className={({ isActive }) => `${linkClass} ${underline} ${isActive ? activeClass : ""}`}>About</NavLink>
           <NavLink to="/ProjectCards" className={({ isActive }) => `${linkClass} ${underline} ${isActive ? activeClass : ""}`}>Projects</NavLink>
+           <NavLink to="/Skills" className={({ isActive }) => `${linkClass} ${underline} ${isActive ? activeClass : ""}`}>Skills</NavLink>
           <NavLink to="/ContactForm" className={({ isActive }) => `${linkClass} ${underline} ${isActive ? activeClass : ""}`}>Contact</NavLink>
           <NavLink to="/BlogsCart" className={({ isActive }) => `${linkClass} ${underline} ${isActive ? activeClass : ""}`}>Blogs</NavLink>
+         
         </ul>
 
         {/* Right-side badge */}
-        <div className="hidden md:block text-amber-400 font-semibold">Upcoming 🚧</div>
+                  <NavLink to="/Resume" className={({ isActive }) => `${linkClass} ${underline} ${isActive ? activeClass : ""}`}>resume</NavLink>
+
 
         {/* Mobile Toggle */}
         <div className="md:hidden text-3xl cursor-pointer text-amber-400" onClick={toggleMenu}>
@@ -183,9 +187,10 @@ const Navbar = () => {
             <NavLink to="/" onClick={closeMenu} className={({ isActive }) => `${linkClass} ${underline} ${isActive ? activeClass : ""}`}>Home</NavLink>
             <NavLink to="/About" onClick={closeMenu} className={({ isActive }) => `${linkClass} ${underline} ${isActive ? activeClass : ""}`}>About</NavLink>
             <NavLink to="/ProjectCards" onClick={closeMenu} className={({ isActive }) => `${linkClass} ${underline} ${isActive ? activeClass : ""}`}>Projects</NavLink>
+            <NavLink to="/Skills" onClick={closeMenu} className={({ isActive }) => `${linkClass} ${underline} ${isActive ? activeClass : ""}`}>Skills</NavLink>
             <NavLink to="/ContactForm" onClick={closeMenu} className={({ isActive }) => `${linkClass} ${underline} ${isActive ? activeClass : ""}`}>Contact</NavLink>
             <NavLink to="/BlogsCart" onClick={closeMenu} className={({ isActive }) => `${linkClass} ${underline} ${isActive ? activeClass : ""}`}>Blogs</NavLink>
-            <li className="text-amber-400 font-medium mt-2">Upcoming 🚧</li>
+           <NavLink to="/Resume" className={({ isActive }) => `${linkClass} ${underline} ${isActive ? activeClass : ""}`}>resume</NavLink>
           </motion.ul>
         )}
       </AnimatePresence>

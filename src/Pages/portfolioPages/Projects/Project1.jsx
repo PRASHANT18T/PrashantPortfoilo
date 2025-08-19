@@ -174,7 +174,7 @@ const Project1 = () => {
             >
               <img
                 src={src}
-                alt={`Screenshot ${index + 1}`}
+                alt={`Screenshot ${index + 1}`} 
                 className="absolute inset-0 w-full h-full object-fit transition-opacity duration-300 group-hover:opacity-80"
               />
               {/* <div className="absolute inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex items-center justify-center text-white font-semibold text-lg z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
