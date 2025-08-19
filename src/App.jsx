@@ -3,22 +3,22 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import MainLayout from "./layouts/MainLayout";
-import Home from "./pages/portfolioPages/Home.jsx";
-import About from "./pages/portfolioPages/AboutCard";
-import ProjectCards from "./pages/portfolioPages/ProjectCards";
-import Skills from "./pages/portfolioPages/Skills";
-import ContactForm from "./pages/portfolioPages/ContactForm";
-import Resume from "./pages/portfolioPages/Resume";
-import Project1 from "./pages/portfolioPages/projects/Project1";
-import Project2 from "./pages/portfolioPages/projects/Project2";
-import Project3 from "./pages/portfolioPages/projects/Project3";
-import Project4 from "./pages/portfolioPages/projects/Project4";
-import SkillLangs from "./pages/portfolioPages/SkillLangs";
-import AvailableForJobs from "./pages/portfolioPages/AvailableForJobs";
-import Freelance from "./pages/portfolioPages/Freelance";
-import BlogsCart from "./pages/portfolioPages/BlogsCart";
-import NotFound from "./pages/portfolioPages/NotFound";
-import BlogDetails from "./pages/portfolioPages/Blogs";
+import Home from "./Pages/portfolioPages/Home.jsx";
+import About from "./Pages/portfolioPages/AboutCard";
+import ProjectCards from "./Pages/portfolioPages/ProjectCards";
+import Skills from "./Pages/portfolioPages/Skills";
+import ContactForm from "./Pages/portfolioPages/ContactForm";
+import Resume from "./Pages/portfolioPages/Resume";
+import Project1 from "./Pages/portfolioPages/projects/Project1";
+import Project2 from "./Pages/portfolioPages/projects/Project2";
+import Project3 from "./Pages/portfolioPages/projects/Project3";
+import Project4 from "./Pages/portfolioPages/projects/Project4";
+import SkillLangs from "./Pages/portfolioPages/SkillLangs";
+import AvailableForJobs from "./Pages/portfolioPages/AvailableForJobs";
+import Freelance from "./Pages/portfolioPages/Freelance";
+import BlogsCart from "./Pages/portfolioPages/BlogsCart";
+import NotFound from "./Pages/portfolioPages/NotFound";
+import BlogDetails from "./Pages/portfolioPages/Blogs";
 
 function App() { 
   return (
