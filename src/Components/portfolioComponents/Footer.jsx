@@ -55,7 +55,7 @@ const Footer = () => {
       <hr className="my-8 border-gray-700" />
 
       <p className="text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} Prashant Thube | Crafted with ❤️ by Wamiqa
+        © {new Date().getFullYear()} Prashant Thube | Crafted with ❤️ by Prashant
       </p>
     </footer>
   );
