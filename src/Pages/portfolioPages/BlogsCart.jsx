@@ -1,7 +1,7 @@
 // src/pages/portfolioPages/BlogsCart.jsx
 import React from "react";
 import { Link } from "react-router-dom";
-import blogData from "../../assets/portfolioAssets/json/blogData.json";
+import blogData from "../../assets/portfolioAssets/json/Blogdata.json";
 
 const BlogsCart = () => {
   return (
