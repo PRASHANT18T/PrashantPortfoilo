@@ -13,8 +13,7 @@ const Footer = () => {
             className="w-20 h-20 mb-3 rounded-full shadow-lg"
           />
           <p className="text-sm text-gray-300 leading-relaxed">
-            I'm Prashant Thube — a passionate full stack developer who loves building
-            beautiful, functional, and interactive web experiences. Let's create magic together!
+         I'm Prashant Thube — a passionate full stack developer who enjoys crafting seamless digital experiences. From designing elegant, responsive interfaces to building robust backend systems, I love turning ideas into functional, interactive web applications.
           </p>
         </div>
 
