@@ -1,6 +1,7 @@
 // src/App.jsx //
 import React from "react"; 
 import { Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react"; 
 
 import MainLayout from "./layouts/MainLayout";
 import Home from "./Pages/portfolioPages/Home.jsx";
@@ -22,6 +23,7 @@ import BlogDetails from "./Pages/portfolioPages/Blogs";
 
 function App() { 
   return (
+    <>
     <Routes>
       {/* All these routes render inside MainLayout */}
       <Route path="/" element={<MainLayout />}>
@@ -45,6 +47,10 @@ function App() {
       <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
+     
+      {/* 👇 Vercel Analytics ko Routes ke baad mount karo */}
+      <Analytics />
+       </>
   );
 }
 
