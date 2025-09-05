@@ -45,7 +45,7 @@ const Intro = () => {
     </h1>
 
  <SplitText
-      text="Frontend Magician ✨ | Full-Stack Java Developer 💻. I build animated websites that are fast, responsive, and unforgettable."
+      text="Java Full-Stack 🚀 | MERN Full-Stack ⚡ | Frontend Specialist ✨. I build end-to-end web apps — seamless on the frontend, powerful on the backend, and unforgettable in experience."
       className="text-base sm:text-xl md:text-2xl text-white font-medium max-w-xl leading-snug"
       delay={50}
       duration={0.9}

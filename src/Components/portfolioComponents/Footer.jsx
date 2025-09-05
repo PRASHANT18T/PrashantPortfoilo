@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         {/* Logo & About */}
         <div>
           <img
-            src="/assets/portfolioAssets/img/logo.png" // 🖼 change path if needed
+            src="https://avatars.githubusercontent.com/u/187184131?v=4" // 🖼 change path if needed
             alt="Logo"
             className="w-20 h-20 mb-3 rounded-full shadow-lg"
           />
@@ -44,10 +44,10 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold mb-3 text-cyan-400">Let's Connect</h3>
           <div className="flex space-x-4 mt-2 text-xl">
-            <a href="mailto:prashantportfoliomails@gmail.com" className="hover:text-red-400 transition"><FaEnvelope /></a>
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition"><FaGithub /></a>
-            <a href="https://linkedin.com/in/prashant-thube" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition"><FaLinkedin /></a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition"><FaFacebook /></a>
+            <a href="mailto:mrprashant18t@gmail.com" className="hover:text-red-400 transition"><FaEnvelope /></a>
+            <a href="https://github.com/PRASHANT18T" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition"><FaGithub /></a>
+            <a href="www.linkedin.com/in/prashant-thube-18t" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition"><FaLinkedin /></a>
+            <a href="https://www.instagram.com/prashant18t?igsh=b2E0ZDV1YzJsN2Fi" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition"><FaInstagram /></a>
           </div>
         </div>
       </div>

@@ -150,7 +150,7 @@ const Navbar = () => {
           transition={{ delay: 0.2 }}
           className="text-2xl font-bold uppercase tracking-widest text-amber-400"
         >
-          Prashant
+          <div><NavLink to="/" >Prashant</NavLink></div>
         </motion.div>
 
         {/* Desktop Nav */}
