@@ -2,6 +2,7 @@
 import React from "react"; 
 import { Routes, Route } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react"; 
+import ScrollToTop from "./Components/portfolioComponents/ScrollToTop";
 
 import MainLayout from "./layouts/MainLayout";
 import Home from "./Pages/portfolioPages/Home.jsx";
@@ -24,6 +25,7 @@ import BlogDetails from "./Pages/portfolioPages/Blogs";
 function App() { 
   return (
     <>
+      <ScrollToTop />
     <Routes>
       {/* All these routes render inside MainLayout */}
       <Route path="/" element={<MainLayout />}>
