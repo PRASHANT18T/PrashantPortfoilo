@@ -22,25 +22,25 @@ const projects = [
   liveLink: '/project2', // assuming Project2.js is routed correctly
   repoLink: '#' // update with your GitHub link when ready
 }
-,
-  {
-    id: 3,
-    title: 'E-Commerce Site',
-    description: 'Online store with cart, payment & admin panel.',
-    img: 'https://th.bing.com/th?q=E+Commerce+Dashboard+UI',
-    tech: 'React, Tailwind CSS, Spring Boot, SQL',
-    liveLink: '/project3',
-    repoLink: '#'
-  },
-  {
-    id: 4,
-    title: 'Blog Platform',
-    description: 'Write & publish blogs with markdown support.',
-    img: 'https://th.bing.com/th?q=Blog+Website+Design',
-    tech: 'React, Node.js, Express, MongoDB',
-    liveLink: '/project4',
-    repoLink: '#'
-  }
+//,
+  // {
+  //   id: 3,
+  //   title: 'E-Commerce Site',
+  //   description: 'Online store with cart, payment & admin panel.',
+  //   img: 'https://th.bing.com/th?q=E+Commerce+Dashboard+UI',
+  //   tech: 'React, Tailwind CSS, Spring Boot, SQL',
+  //   liveLink: '/project3',
+  //   repoLink: '#'
+  // },
+  // {
+  //   id: 4,
+  //   title: 'Blog Platform',
+  //   description: 'Write & publish blogs with markdown support.',
+  //   img: 'https://th.bing.com/th?q=Blog+Website+Design',
+  //   tech: 'React, Node.js, Express, MongoDB',
+  //   liveLink: '/project4',
+  //   repoLink: '#'
+  // }
 ];
 
 const ProjectCard = ({ project, index }) => {
